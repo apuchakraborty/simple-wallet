@@ -1,7 +1,5 @@
 # Simple wallet
 
-# Simple Wallet Project Documentation
-
 ## Introduction
 This project is a simple wallet application designed to manage cryptocurrency transactions.
 
