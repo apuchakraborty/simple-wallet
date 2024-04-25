@@ -1,8 +1,16 @@
-# React + Vite
+# Simple wallet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Simple Wallet Project Documentation
 
-Currently, two official plugins are available:
+## Introduction
+This project is a simple wallet application designed to manage cryptocurrency transactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+1. Node - 20
+2. Clone the project repository:
+   ```bash
+   git clone https://github.com/apuchakraborty/simple-wallet.git
+   
+cd simple-wallet
+npm install
+npm run dev
