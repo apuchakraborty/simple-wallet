@@ -4,7 +4,7 @@
 This project is a simple wallet application designed to manage cryptocurrency transactions.
 
 ## Getting Started
-1. Node - 20
+1. Node - v20.12.1
 2. Clone the project repository:
    ```bash
    git clone https://github.com/apuchakraborty/simple-wallet.git
