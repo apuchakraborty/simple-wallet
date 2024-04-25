@@ -11,6 +11,5 @@ This project is a simple wallet application designed to manage cryptocurrency tr
    
 ```bash
 cd simple-wallet
-```bash
 npm install
-```npm run dev
+npm run dev
