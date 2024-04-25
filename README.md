@@ -9,6 +9,6 @@ This project is a simple wallet application designed to manage cryptocurrency tr
    ```bash
    git clone https://github.com/apuchakraborty/simple-wallet.git
    
-cd simple-wallet
-npm install
-npm run dev
+```cd simple-wallet
+```npm install
+```npm run dev
