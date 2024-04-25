@@ -9,23 +9,7 @@ const initialState = {
 const walletSlice = createSlice({
   name: 'wallet',
   initialState,
-  reducers: {
-    updateWalletData: (state, action) => {
-      state.wallet = action.payload;
-    },
-    searchWalletData: (state, action) => {
-      const searchQuery = action.payload.toLowerCase();
-      state.wallet = {
-        ...state.wallet,
-        txHistory: {
-          ...state.wallet.txHistory,
-          txids: state.wallet.txHistory.txids.filter(txid =>
-            txid.toLowerCase().includes(searchQuery)
-          ),
-        },
-      };
-    },
-  },
+  reducers: {},
 });
 
 export const { updateWalletData, searchWalletData } = walletSlice.actions;

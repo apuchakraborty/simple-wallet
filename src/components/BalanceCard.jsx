@@ -19,7 +19,7 @@ export default function BalanceCard() {
     <Box>
       <Typography variant="p">Bitcoin Balance</Typography>
       <Typography variant="h6" color="primary.yellow">
-       {walletInfo?.txHistory?.balanceSat}
+       {walletInfo?.txHistory?.balanceSat / 100000000}
       </Typography>
     </Box>
 
